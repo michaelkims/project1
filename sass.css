@@ -1,0 +1,349 @@
+*{
+    margin: 0;padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;}
+
+.MBG {
+    width: 100%;
+    height: 100vh;
+}
+
+.MainHeader {background-color: brown;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxify {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 85%;
+
+}
+.NavDiv a {
+    margin: 30px;
+    color: white;
+    opacity: 0.7;
+    transition: all 350ms;
+}
+
+.NavDiv a:hover {
+    background-color: white;
+    color: brown;
+    opacity: 0.7;
+    transform: scale(1,1);
+}
+
+.TXttrol{
+    color: white;
+    opacity: 0.7;
+    
+}
+.TXttrol :hover{
+    background-color:black;
+    color: blue;
+    transform: scale(1,1);
+    transition: all 350ms;
+    cursor: pointer;
+}
+
+.s1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.s1text {
+    width: 60%;
+    height: 500px;
+    margin: 50px 0;
+    padding: 90px;
+    line-height: 35px;
+    background-color: black;
+    color: white;
+}
+
+.s1text h1 {
+    padding-top: 50px;
+}
+
+.l1 {
+    width: 40%;
+    height: 100%;
+}
+.l1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-items: center;
+}
+
+.tret{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 20px;
+
+}
+.tret img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    align-items: center;
+}
+
+.move {
+    width: 55%;
+    height: 500px;
+    margin: 50px 0;
+    padding: 90px;
+    line-height: 35px;
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+
+.reverse{
+    width: 45%;
+    height: 100%;
+}
+
+.reverse img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-items: center;
+}
+.go{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fix{
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+    font-size: 30px;
+}
+.ofor{
+    color: darkgreen;
+}
+.ofor :hover{
+    color:gold;
+    text-decoration: underline;
+}
+
+
+
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    padding: 50px 100px;
+    background-color: #24262b;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.mood h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.mood p{
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 25px;
+    padding-bottom: 20px;
+    
+}
+
+.free h2{
+    color: #fff;
+    font-size: 20px;
+}
+.fzg li a:hover{
+    background-color: #6380f0;
+}
+.free {
+    position: relative;
+}
+.free li{
+    list-style: none;
+
+}
+.free li a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-top: 15px;
+    line-height: 5px;
+    
+    
+}
+.free li a :hover{
+    color: #ffeb3b;
+}
+.ZOOM h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.ZOOM li a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-right: 10px;
+    
+}
+.gift h2{
+    color: #fff;
+    font-weight: 500px;
+    font-size: 20px;
+    
+}
+.gift li a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-block;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.lotem h2{
+    color: #fff;
+    font-weight: 500px;
+    font-size: 20px;
+    
+}
+
+.box2{
+    background-color: #2c2c2a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.BoxTxt{
+    /* display: flex;
+    width: 100%;
+    height: 20vh;
+    justify-content: space-around;
+    align-items: flex-end; */
+    
+}
+.yaffimg{
+    width:20%;
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    background-color: #dff700;
+    
+}
+.box2 h1{
+    color: #fff;
+    font-size: large;
+}
+.lotem button{
+    color: white;
+    background-color: blue;
+    width: 40px;
+
+}
+
+.ZOOM li {
+    list-style: none;
+}
+.gift li{
+    list-style: none;
+}
+
+.gift ul li :hover{
+    text-decoration: underline;
+}
+.ZOOM ul li :hover{
+    text-decoration: underline;
+}
+.free ul li :hover{
+    text-decoration: underline;
+}
+ span{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    height: 30px;
+    width: 150px;
+    padding-top: 10px;
+    flex-direction: row;
+    margin: 10px;
+    color: black;
+}
+
+span img:hover{
+    transform: scale(1.1);
+    background-color: teal;
+}
+
+.last-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2vh;
+}
+
+.fit1 a{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

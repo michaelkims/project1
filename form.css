@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body{
+    background-image: url(./apple\ 40.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    flex-direction: column;
+    background-color: #4d4646;
+    background-position: center;
+    opacity: 1.6;
+}
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: snow;
+    background-image: url(./apple\ 11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-dodge;
+    background-color: #1b1a1a;
+    opacity:0.9;
+}
+
+h1{
+    -webkit-text-stroke:1px #c0c0c0;
+    color: transparent;
+}
+
+
+.field{
+    width: 530px;
+    height: 135vh;
+    margin-top: 60px;
+    background-color: rgb(24, 21, 21);
+    border: none;
+    box-shadow: #c0c0c0;
+    border-radius: 40px;
+
+}
+.body1{
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #242222;
+}
+.real{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: column;
+    color:snow;
+}
+
+p{
+    padding-top: 10px;
+}
+
+.fn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inp1{
+    width: 300px;
+    height: 30px;
+    background-attachment: scroll;
+    border-radius: 20px;
+}
+
+.ln{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inp2{
+    width: 300px;
+    height: 30px;
+    background-attachment: scroll;
+    border-radius: 20px;
+}
+
+.dob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.age{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inp3{
+    width: 300px;
+    height: 30px;
+    background-attachment: scroll;
+    border-radius: 20px;
+}
+
+.qlf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.phd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.bsc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.olevel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.phn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-field{
+    border-radius: 10px;
+    border-color: #4d4646;   
+}
+.inp4{
+    width: 300px;
+    height: 30px;
+    background-attachment: scroll;
+    border-radius: 20px;
+}
+
+.course{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.mebox{
+    border-radius: 20px;
+    height: 30px;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 10px;
+    flex-direction: row;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border-color: #4d4646;
+}
+
+.sms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: aliceblue;
+
+}
+
+.chat{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.range{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bt{
+    background-color: red;
+    color: snow;
+    border-radius: 5px;
+    border-style: none;
+    width: 70px;
+    height: 25px;
+}
+
+.bt:hover{
+    color: snow;
+    background-color: darkred;
+    box-shadow: inset;
+}
+
+.color{
+    width: 460px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+
+
+

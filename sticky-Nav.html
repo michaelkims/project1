@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sticky-Nav-Bar</title>
+    <link rel="stylesheet" href="sticky-Nav.css">
+</head>
+<body>
+    <div class="header">
+        <nav id="navBar">
+            <img src="./logo4.jpg" alt="" class="logo">
+            <ul id="menu">
+                <li>home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <p class="text">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi itaque officia non id nesciunt, beatae culpa odio magnam minus odit, a dicta earum tempora aliquam nulla quae quos in sapiente debitis explicabo dolores, laborum expedita fuga corrupti? Placeat libero id qui, nostrum blanditiis eveniet aspernatur, nihil voluptatum voluptas maiores ullam, earum temporibus iure modi eaque aliquam corporis tempora expedita unde? Nam rem deserunt dicta repudiandae. Neque odit eos molestias delectus necessitatibus, perspiciatis aperiam tenetur explicabo corrupti repellat ipsum a expedita officiis ad quis asperiores consequuntur aliquam eveniet minima, veritatis obcaecati sequi? Tempora perferendis eligendi, excepturi accusamus ipsam quod ex quisquam?
+    </p>
+    <p class="text2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, velit excepturi eius, perspiciatis asperiores explicabo natus iure inventore ab consequuntur quibusdam ipsam veniam molestias, minus eligendi accusantium sapiente modi delectus doloribus blanditiis dolorem cupiditate. Modi ipsam odio sapiente voluptate qui nam totam voluptatibus porro temporibus ea deleniti iusto, dolores mollitia hic provident excepturi repellat praesentium ducimus repudiandae, eius tenetur. Repellat aliquid atque laborum neque sequi autem, quidem exercitationem corporis omnis, expedita, perferendis magnam? Eius repudiandae recusandae aut ipsa praesentium officia beatae consequatur enim eligendi inventore, incidunt ex unde ea aliquid. Perspiciatis quae provident maxime, nam eligendi odio sapiente eos quidem.
+    </p>
+    <p class="text3">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, at molestias fugit necessitatibus, beatae eveniet alias reiciendis iure nam porro incidunt, exercitationem minima optio quaerat mollitia ab a deleniti quo? Pariatur blanditiis asperiores numquam enim commodi ipsa, facilis aliquid et consectetur amet eius sapiente, velit non, animi optio magnam incidunt repellendus consequuntur ratione natus alias. Aliquam, natus accusantium. Ratione ut repudiandae saepe unde velit ipsam neque facilis voluptate ab vel maxime nihil voluptates assumenda harum expedita, quaerat delectus consectetur accusamus iusto amet rerum veniam quam mollitia quibusdam! Voluptates nulla aperiam culpa blanditiis nisi exercitationem mollitia, quas atque, dolore dignissimos facere.
+    </p>
+    <p class="text4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate itaque doloremque alias cum voluptas, officiis quae fugiat dolorum exercitationem. Dolore obcaecati eaque quibusdam aut. Ipsam voluptatum vero deleniti a id quis, eveniet, architecto saepe rerum est perspiciatis tenetur aperiam quam soluta libero ipsum ducimus voluptates, perferendis reiciendis corrupti voluptatem ut mollitia nulla. Nemo sint enim aperiam blanditiis omnis architecto nisi laboriosam similique autem dolorum! Aut incidunt eveniet tempore earum eos natus? Beatae magnam repellat, repellendus obcaecati deleniti odit voluptatibus provident? Illo corporis modi enim. Eaque rerum, ex ab numquam maiores omnis voluptate deleniti dignissimos tenetur labore facere, distinctio necessitatibus magnam.
+    </p>
+    <div class="slides">
+
+    <div class="slider">
+        <img src="lap1.jpg" alt="">
+        <img src="lap2.jpg" alt="">
+        <img src="lap3.jpg" alt="">
+        <img src="lap4.jpg" alt="">
+    </div>
+    <footer id="blog-f">
+        <div class="f-container">
+            <span class="fs">Phone:(+234)9027512355|Our Location:62,Bayo Shodipo Street,Remlek Estate,Badore,  Lagos.</span>
+            <div class="rex">
+                <span class="fp">Hours of Operation:
+                    Monday:9am-5pm
+                    Tuesday:9am-5pm
+                    Wednesday:9am-5pm
+                    Thursday:9am-5pm
+                    Friday:9am-5pm
+                    Saturday:9-5pm
+                    Sunday:10am-5pm
+                </span>
+                <span class="fs1">
+                    <img src="./fb.png" alt="">
+                    <img src="./instagram.png" alt="">
+                </span>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6583901071285!2d3.4228998174438474!3d6.437900699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf536b15c7885%3A0xbcaea69ba1f12984!2sMuri%20Okunola%20Park!5e0!3m2!1sen!2sng!4v1665656542096!5m2!1sen!2sng" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            <span class="fs2">&copy;2022 Ethical Hacking & Mikes Hack - All Right Reserved. | Powered By:MikesWeb-Dev</span>
+        </div>
+    </footer>
+
+
+
+<script>
+    let navBar = document.getElementById('navBar')
+    let menu = document.getElementById('menu')
+
+    window.onscroll = function () {
+        if(window.pageYOffset >= menu.offsetTop){
+            navBar.classList.add("sticky");
+        }
+        else{
+            navBar.classList.remove("sticky");
+        }
+        
+    }
+
+    function openimage() {
+        document.getElementById('menue2').style ="display:block;";
+        document.getElementById('open').style  ="display:none;";
+        document.getElementById('close').style ="display:block;";
+        
+    }
+
+    function closeimage() {
+        document.getElementById('menue2').style ="display:none;";
+        document.getElementById('open').style ="display:block;";
+        document.getElementById('close').style ="display:none;";
+        
+    }
+
+    
+
+</script>
+</body>
+</html>
